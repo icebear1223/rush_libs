@@ -1,3 +1,11 @@
+<!--
+ * @Author: 郑曦
+ * @Date: 2022-09-09 16:40:27
+ * @LastEditors: 郑曦
+ * @LastEditTime: 2022-09-09 21:04:20
+ * @FilePath: /rush-program/common/config/rush/.npmrc-publish
+ * @Description: 描述
+-->
 # This config file is very similar to common/config/rush/.npmrc, except that .npmrc-publish
 # is used by the "rush publish" command, as publishing often involves different credentials
 # and registries than other operations.
@@ -17,4 +25,7 @@
 # environment variable, which can be referenced from .npmrc using ${} expansion.  For example:
 #
 #   //registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}
-#
+# 手动注入token，正常情况应该是读取环境变量里的token，这里写死是为了方便测试
+
+registry=http://localhost:4873/:_authToken=${NPM_AUTH_TOKEN}
+//localhost:4873/:_authToken="ltCOeErsueBWWeCOa4UeWShrx0NKNejhnVfEBRAaWbM="

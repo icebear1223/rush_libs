@@ -2,7 +2,7 @@
  * @Author: 郑曦
  * @Date: 2022-09-09 16:04:27
  * @LastEditors: 郑曦
- * @LastEditTime: 2022-09-09 20:05:57
+ * @LastEditTime: 2022-09-09 21:04:43
  * @FilePath: /rush-program/lesson.md
  * @Description: 描述
 -->
@@ -17,4 +17,4 @@
 9. 发包需要主动配置用户的npm token。
   9.1 执行npm whoami --registry xxx(私仓地址)，看当前账户是否正确
   9.2 查看当前登录的用户的token。cat ~/.npmrc，整行复制出authToken
-  9.3 添加到.npmrc和
+  9.3 添加到.npmrc和.npmrc-public内
