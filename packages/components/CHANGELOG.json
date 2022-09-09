@@ -1,0 +1,22 @@
+{
+  "name": "@zxrush/components",
+  "entries": [
+    {
+      "version": "1.0.1",
+      "tag": "@zxrush/components_v1.0.1",
+      "date": "Fri, 09 Sep 2022 13:52:37 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "修改hooks文件"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@zxrush/hooks\" to `1.0.1`"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
  * @Author: 郑曦
  * @Date: 2022-09-09 16:04:27
  * @LastEditors: 郑曦
- * @LastEditTime: 2022-09-09 21:04:43
+ * @LastEditTime: 2022-09-09 21:52:25
  * @FilePath: /rush-program/lesson.md
  * @Description: 描述
 -->
@@ -18,3 +18,5 @@
   9.1 执行npm whoami --registry xxx(私仓地址)，看当前账户是否正确
   9.2 查看当前登录的用户的token。cat ~/.npmrc，整行复制出authToken
   9.3 添加到.npmrc和.npmrc-public内
+10. 发布命令rush publish --apply --target-branch main --publish
+11. 需要将node，pnpm版本与rush.json内的配置对应上，否则可以提交成功，但是会报错。
