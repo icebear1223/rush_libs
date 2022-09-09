@@ -2,7 +2,7 @@
  * @Author: 郑曦
  * @Date: 2022-09-09 16:40:27
  * @LastEditors: 郑曦
- * @LastEditTime: 2022-09-09 21:04:20
+ * @LastEditTime: 2022-09-09 21:34:10
  * @FilePath: /rush-program/common/config/rush/.npmrc-publish
  * @Description: 描述
 -->
@@ -27,5 +27,5 @@
 #   //registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}
 # 手动注入token，正常情况应该是读取环境变量里的token，这里写死是为了方便测试
 
-registry=http://localhost:4873/:_authToken=${NPM_AUTH_TOKEN}
+registry=http://localhost:4873/
 //localhost:4873/:_authToken="ltCOeErsueBWWeCOa4UeWShrx0NKNejhnVfEBRAaWbM="
